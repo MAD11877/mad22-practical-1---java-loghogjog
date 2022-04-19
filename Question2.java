@@ -10,12 +10,13 @@ public class Question2
      * Hint: in.nextDouble() to read double
      */
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter your height: ");
+    System.out.println("Enter your height in m: ");
     double height = in.nextDouble();
     
-    Scanner  in2 = new Scanner(System.in);
-    System.out.println("Enter your weight: ");
-    double weight = in2.nextDouble();
+    System.out.println("Enter your weight in kg: ");
+    double weight = in.nextDouble();
+
+    System.out.println("User's bmi is " + String.format("%.2f", weight/(height*height)));
     
     System.out.println("User's height is " + height);
     System.out.println("User's weight is " + weight);
