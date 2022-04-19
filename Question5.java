@@ -27,6 +27,13 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.println("Enter number of loops: ");
+    int loops = in.nextInt();
+    
+    While(loops > 0) {
+      System.out.println("Enter an integer: ");
+      
+    }
     
   }
 }
