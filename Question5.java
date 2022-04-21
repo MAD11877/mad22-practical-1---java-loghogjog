@@ -27,12 +27,12 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter number of rounds: ");
+    
     int loops = in.nextInt();
 
     int[] num_list = new int[loops];
     for(int i = 0; i < loops; i++) {
-      System.out.println("Enter an integer: ");
+      
       num_list[i] = in.nextInt();
     }
 
@@ -53,6 +53,6 @@ public class Question5
         }
       }
     }
-    System.out.println("The mode is " + maxValue); 
+    System.out.println(maxValue); 
   }
 }
